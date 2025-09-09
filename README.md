@@ -32,16 +32,16 @@ It lets you search for flights, preview results, and simulate bookings with a sm
 - `/confirmation` → Summary + booking reference  
 
 ---
+## 🚀 Demo
 
-## 🚀 Getting Started
+**Live:** 👉 [https://flight-booker-six.vercel.app](https://flight-booker-six.vercel.app)
 
-Clone the repository:
+---
+
+## 🧩 Getting Started
 
 ```bash
 git clone https://github.com/enuridav/Flight-booker.git
-Demo Live
-🔗 https://flight-booker-six.vercel.app
-
 cd Flight-booker
 npm install
 npm run dev

@@ -1,12 +1,44 @@
-# React + Vite
+ # 🛫 Flight Booker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern flight booking demo built with **React + Vite**.  
+It lets you search for flights, preview results, and simulate bookings with a smooth, glassy UI.
 
-Currently, two official plugins are available:
+![screenshot](public/preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
+- ⚡ **Instant results** – fast and responsive search  
+- 🧭 **Smart autocomplete** – airports with country flags  
+- 🧳 **Booking flow** – select flight, confirm, and get a booking reference  
+- 🔒 **Privacy-first** – all state handled on device (no real backend)  
+- 🎨 **Modern UI** – glassmorphism, gradients, fully responsive  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- React Router (multi-page flow)
+- Context API (global state management)
+- Custom Components (AirportPicker, SearchForm, Loader, etc.)
+- CSS with glassmorphism and gradient design
+
+---
+
+## 📂 Pages
+- `/` **Home** → Hero + Search Form  
+- `/results` → Flight results list + filters  
+- `/booking` → Passenger form + validation  
+- `/confirmation` → Summary + booking reference  
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/enuridav/Flight-booker.git
+cd Flight-booker
+npm install
+npm run dev
